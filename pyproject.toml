@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-kernel-sketch"
+version = "0.2.0"
+description = "Train a kernel perceptron on angle-encoded data and compare its predictions with a kernel-weighted baseline."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["qkernel*"]
