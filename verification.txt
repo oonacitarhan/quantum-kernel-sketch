@@ -1,5 +1,1 @@
-Actual verification date: 2026-11-01
-Command: python3 kernel.py
-
-Toy holdout correct/total: (2, 2)
-Self-tests passed; this tiny dataset is not a generalization benchmark.
+Superseded by docs/verification.txt; run sh scripts/check.sh.

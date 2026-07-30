@@ -1,0 +1,11 @@
+Actual local verification: 2026-11-01
+
+PASS test_cli.test_cli_rejects_unknown_argument
+PASS test_cli.test_help
+PASS test_features.test_before_fit
+PASS test_features.test_dimension_rejection
+PASS test_features.test_epoch_validation
+PASS test_features.test_training
+PASS test_reference.test_original_reference_cases
+7 tests passed
+{"workload": "Perceptron().fit([[0],[.2],[2.8],[3]],[-1,-1,1,1])", "repetitions": 5, "median_seconds": 0.00014289200044004247, "min_seconds": 9.061799937626347e-05}
